@@ -1,0 +1,50 @@
+body {
+  background-color: #e5e5f7;
+
+  
+}
+
+div {
+    background-color: rgb(10, 191, 204);
+    max-width: 300px;
+    height: 120px;
+    margin-top: 7px;
+    position: relative;
+    flex-direction: row;
+
+  }
+  
+  .exampleBox {
+    writing-mode: sideways-rl;
+    position: absolute;
+    inset: 20px 40px 30px 10px;
+    background-color: #4f6d86;
+  }
+
+  .exampleBox2 {
+    writing-mode: sideways-rl;
+    position: absolute;
+    inset: 15% 25%;
+    background-color: #4f6d86;
+  }
+
+  .exampleBox3 {
+    writing-mode: sideways-rl;
+    position: absolute;
+    inset: 2em 50px 20px;
+    background-color: #4f6d86;
+  }
+
+  .exampleBox4 {
+    writing-mode: sideways-rl;
+    position: absolute;
+    inset: 10px 30% 20px 0;
+    background-color: #4f6d86;
+  }
+
+  .exampleBox5 {
+    writing-mode: sideways-rl;
+    position: absolute;
+    inset: 0;
+    background-color: #4f6d86;
+  }
